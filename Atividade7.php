@@ -8,4 +8,30 @@ $n3 : (int) fgets (STDIN);
 
 print "Agora diga o maioir entre os três :" ;
  
-if ()
+if ($n1 > $n2 or $n3) {
+    print "O $n1 é o maior número dos três :" ; 
+}
+
+if ($n2 > $n1 or $n3) {
+    print "O $n2 é o maior número dos três :" ; 
+}
+
+if ($n3 > $n1 or $n2) {
+    print "O $n3 é o maior número dos três :" ; 
+}
+
+print "Agora diga qual o menor dos três :" ;
+
+    if ($a < $b and $a < $c){
+        print "O $n1 é o menor número dos três  \n\n";
+    }
+
+    if ($n2 < $n1 and $n2 < $n3){
+        print "O $n2 é o menor número dos três  \n\n" ; 
+    }
+
+    if ($n3 < $n1 and $n3 < $n2) {
+        print "O $n3 é o menor número dos três \n\n" ;   
+    }
+
+print "Fim do Algoritmo" ; 
