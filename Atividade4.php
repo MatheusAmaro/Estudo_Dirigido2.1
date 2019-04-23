@@ -2,9 +2,9 @@
 
 print " Digite qualquer letra , e depois diga se ela é uma vogal ou uma consoante" ;
 
-$letra : (string) fgets (STDIN) ;
+$letra= raw_input("Digite qualquer letra : \n\n") ;
 
-if ($letra == 'A','E','I','O','U'){
+if ($letra == 'a' or $letra == 'e' or $letra == 'i' or $letra == 'o' or $letra == 'u'  :){
     print "$letra é uma vogal " ;
     }
 else {
