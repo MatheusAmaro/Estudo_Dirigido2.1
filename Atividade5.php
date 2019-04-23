@@ -1,26 +1,27 @@
 <?php 
- print " Digite duas notas pertensentes a uma aluno, e depois some-as e diga a média do aluno :" ;
+ print " Digite duas notas pertensentes a uma aluno: \n\n" ;
  
  
  $nota1 = (int)  fgets (STDIN);
+ $nota2 = (int)  fgets  (STDIN);
  
- $nota2 = (int) fgets  (STDIN);
+ print "Agora calcule a média \n\n" ; 
  
- print "Agora calcule a média" ; 
- 
- $nota1 + $ $nota2 = $media ;
+ $soma = $nota1 + $ $nota2 ;
+
+ $media = $soma % 2 ;
  
  if ($media >= 7) {
-    print " O aluno está aprovado por média" ;
+    print " A média do aluno foi : $media . Então ele passou  \n\n " ;
  }
  
  if ($media < 7 ) {
-    print "O aluno está reprovado" ;
+    print "A média do aluno foi : $media . Então ele reprovou \n\n" ;
  }
  
  if ($media = 10 ){
- print "O aluno está aprovado com distinção" ;
+ print "A média do aluno foi : $media . Então ele passou com distinção \n\n" ;
  }
  
  
- PRINT "Fim Algoritmo" ;
+ print "Fim Algoritmo" ;
