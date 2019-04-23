@@ -6,11 +6,11 @@ print "Digite F para feminino e M para masculino \n\n" ;
 
 $genero =  (string) fgetc (STDIN) ;
      
-     if ($genero == F ){
+     if ($genero = F ){
         print "Feminino \n\n";
     }
 
-    if ($genero == M ){
+    if ($genero = M ){
         print "Masculino \n\n";
     }
 
@@ -19,4 +19,4 @@ $genero =  (string) fgetc (STDIN) ;
     }
     
     print "Fim Algoritmo" ;
-(string) fgetc (STDIN)
+
