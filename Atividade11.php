@@ -26,3 +26,4 @@ if ($qtnum == 1 :) {
 
 
 print "Fim do Algoritmo" ;
+
