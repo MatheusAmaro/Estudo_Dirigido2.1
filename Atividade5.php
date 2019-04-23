@@ -1,7 +1,6 @@
 <?php 
  print " Digite duas notas pertensentes a uma aluno: \n\n" ;
  
- 
  $nota1 = (int)  fgets (STDIN);
  $nota2 = (int)  fgets  (STDIN);
  
@@ -19,7 +18,7 @@
     print "A média do aluno foi : $media . Então ele reprovou \n\n" ;
  }
 
- if ($media = 10){
+ elif ($media = 10){
     print "A média do aluno foi : $media . Então ele passou com distinção \n\n" ;
  }
 
