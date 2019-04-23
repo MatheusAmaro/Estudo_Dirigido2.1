@@ -4,7 +4,7 @@ print "Diga o gênero que vc pertence : \n\n";
 
 print "Digite F para feminino e M para masculino \n\n" ;
 
-$genero = (string) fgets (STDIN)
+$genero =  (string) fgetc (STDIN) ;
      
      if ($genero == F ){
         print "Feminino \n\n";
@@ -19,3 +19,4 @@ $genero = (string) fgets (STDIN)
     }
     
     print "Fim Algoritmo" ;
+(string) fgetc (STDIN)
