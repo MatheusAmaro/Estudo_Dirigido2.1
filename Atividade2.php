@@ -14,11 +14,6 @@ $num = (int) fgets (STDIN);
         print "O  $num  é  um  número negativo \n\n";
     }
 
-    if ($num == 0){
-        print "O  $num  é  um  número neutro \n\n" ;
-    }
-
-
-
+  
      print "Fim Algoritmo";
  
