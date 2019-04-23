@@ -9,7 +9,7 @@
  
  $soma = $nota1 + $ $nota2 ;
 
- $media = $soma % 2 ;
+ $media = $soma / 2 ;
  
  if ($media >= 7) {
     print " A média do aluno foi : $media . Então ele passou  \n\n " ;
@@ -18,10 +18,9 @@
  if ($media < 7 ) {
     print "A média do aluno foi : $media . Então ele reprovou \n\n" ;
  }
- 
- if ($media = 10 ){
- print "A média do aluno foi : $media . Então ele passou com distinção \n\n" ;
+
+ if ($media = 10){
+    print "A média do aluno foi : $media . Então ele passou com distinção \n\n" ;
  }
- 
- 
- print "Fim Algoritmo" ;
+
+ print "Fim do Algoritmo";
