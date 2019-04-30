@@ -11,7 +11,7 @@ if($num1 > $num2){
         print "O maior valor dos dois é $num1 \n\n"
         }
 
-    if ($num2 > $num1){
+    else {
         print "O maior valor dos dois é $num2 \n\n";
     }
     
